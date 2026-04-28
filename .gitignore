@@ -1,0 +1,40 @@
+# Dataset (não versionado por tamanho/privacidade)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Modelos serializados
+models/*.pkl
+models/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/settings.json
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebook original (arquivado, não publicar no portfólio)
+legacy/
